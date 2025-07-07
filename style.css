@@ -7,8 +7,12 @@
   
   /* Fundo da página */
   body {
-    background-color: #f3b2ea; /* Fundo preto, como no protótipo */
-    color: #fff;            /* Texto branco */
+    background-image: url("inteligencia-artificial.png"); /* ou fundo.png */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #fff;    /* Texto branco */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@
     width: 100%;
     max-width: 600px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-left: -1100px;
   }
   
   /* Título */
